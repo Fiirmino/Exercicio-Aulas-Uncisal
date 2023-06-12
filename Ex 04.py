@@ -3,6 +3,7 @@ inss = (salario*0.14)
 irpf = (salario*0.225)
 if salario<=1320:
     inss = (salario * 0.075)
+    if salario<=2112:
 
 elif salario>1320 and salario<=2571.29:
     inss = (salario * 0.9)
