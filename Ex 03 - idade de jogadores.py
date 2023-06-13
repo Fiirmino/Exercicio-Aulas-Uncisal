@@ -10,7 +10,6 @@ nascimento = datetime.strptime(nascimento, '%d/%m/%Y')
 if hoje.month < nascimento.month or hoje.day < nascimento.day and hoje.month == nascimento.month:
 
     idade = (hoje.year-nascimento.year-1)
-    print(idade)
 
 else:
     idade = (hoje.year-nascimento.year)
